@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/linksFragment"
+        android:title="Links"
+        android:actionLayout="@layout/fragment_link_fragment"
+        android:icon="@drawable/link_img"
+        android:visible="true" />
+
+
+    <item
+        android:id="@+id/coursesFragment"
+        android:title="Courses"
+        android:actionLayout="@layout/fragment_courses_fragment"
+        android:icon="@drawable/courses_img"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/FloatingButtonHolder"
+        android:title=""/>
+
+    <item
+        android:id="@+id/campaignFragment"
+        android:title="Campaigns"
+        android:actionLayout="@layout/fragment_campaign_fragment"
+        android:icon="@drawable/campaigns_img"
+        android:visible="true" />
+
+    <item
+        android:id="@+id/profileFragment"
+        android:title="Profile"
+        android:actionLayout="@layout/fragment_profile_fragment"
+        android:icon="@drawable/profile_img"
+        android:visible="true" />
+
+
+</menu>
