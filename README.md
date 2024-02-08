@@ -1,3 +1,10 @@
+The project follows contemporary Android development principles and adopts a single activity architecture to improve scalability and maintenance convenience.
+
+It employs the MVVM (Model-View-ViewModel) architecture, which offers several benefits including Separation of Concerns, Testability, Data Binding, Reactive Programming, Maintainability, Scalability, and Code Reusability.
+
+The OpenInApp project integrates various essential components such as Navigation, Single Activity Architecture, MVVM, LiveData, Coroutines, synergizing to enhance the project's functionality and organization.
+For visualizing data in a graph, the project utilizes the MpChart library, presenting the data over a one-month timeframe in accordance with the provided API specifications.
+
 Here is the apk link to instantly download it https://drive.google.com/file/d/1jKHsSpa4gmftQ5OirlMgEUtO_hcdl1eP/view?usp=sharing
 
 ![5](https://github.com/arsh-kum04/OpenInAppAssignment/assets/106028200/a5cede5d-4603-4a35-801a-fc37b9ab6a2f)
