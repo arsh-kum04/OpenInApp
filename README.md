@@ -1,3 +1,5 @@
+Video Demonstration : https://drive.google.com/file/d/1HsxeaRVn87GlJ3PHrNJaeoqSjpDnFAyv/view?usp=sharing
+
 ASSIGNMENT DESCRIPTION
 
 The project follows contemporary Android development principles and adopts a single activity architecture to improve scalability and maintenance convenience.
