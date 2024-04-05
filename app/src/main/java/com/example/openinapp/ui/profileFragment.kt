@@ -1,5 +1,8 @@
-package com.example.openinapp.ui
+```
+// Folder Name: com.example.openinapp.ui
+// File Name: profileFragment.kt
 
+// Imported necessary Android UI libraries
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -7,47 +10,39 @@ import android.view.View
 import android.view.ViewGroup
 import com.example.openinapp.R
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [profileFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
+// This class represents a fragment for handling user profile related UI and functionality
 class profileFragment : Fragment() {
-    // TODO: Rename and change types of parameters
+
+    // Private member variables used within the fragment
     private var param1: String? = null
     private var param2: String? = null
 
+    // onCreate() is called when the fragment is first created
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // Retrieve any arguments passed to the fragment
         arguments?.let {
             param1 = it.getString(ARG_PARAM1)
             param2 = it.getString(ARG_PARAM2)
         }
     }
 
+    // onCreateView() is called to create the UI for the fragment
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         // Inflate the layout for this fragment
+        // This will create the visual representation of the fragment
         return inflater.inflate(R.layout.fragment_profile_fragment, container, false)
     }
 
+    // newInstance() is a factory method used to create a new instance of this fragment
     companion object {
-        /**
-         * Use this factory method to create a new instance of
-         * this fragment using the provided parameters.
-         *
-         * @param param1 Parameter 1.
-         * @param param2 Parameter 2.
-         * @return A new instance of fragment profileFragment.
-         */
-        // TODO: Rename and change types and number of parameters
+
+        // This method can be used to create a new instance of the fragment
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
             profileFragment().apply {
@@ -58,3 +53,4 @@ class profileFragment : Fragment() {
             }
     }
 }
+```
