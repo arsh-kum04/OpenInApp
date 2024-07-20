@@ -2,7 +2,7 @@ package com.example.openinapp.data
 
 data class DataResponse(
     val applied_campaign: Int,
-    val `data`: Data,
+    val data: data,
     val extra_income: Double,
     val links_created_today: Int,
     val message: String,

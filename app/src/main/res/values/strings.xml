@@ -9,4 +9,6 @@
     <string name="top_source">Top Source</string>
     <string name="instagram">Instagram</string>
     <string name="ahmedabad">Ahmedabad</string>
+    <string name="whatsapp_icon_desc">whatsapp icon</string>
+    <string name="faq_icon_desc">question mark icon</string>
 </resources>

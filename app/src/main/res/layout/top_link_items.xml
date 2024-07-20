@@ -4,6 +4,7 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     app:cardCornerRadius="10dp"
+    android:layout_margin="7dp"
     >
     <LinearLayout
         android:layout_width="match_parent"
@@ -12,13 +13,13 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:padding="10dp"
+            android:padding="6dp"
             android:background="@color/white"
             >
             <ImageView
                 android:id="@+id/item_iv"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_marginEnd="14dp"
                 android:layout_marginBottom="14dp"
@@ -79,6 +80,7 @@
                 android:textColor="@color/black"
                 android:textSize="12sp" />
         </RelativeLayout>
+
         <TextView
             android:id="@+id/tvLink"
             android:layout_width="match_parent"
@@ -88,10 +90,10 @@
             android:ellipsize="end"
             android:fontFamily="@font/figtree_regular"
             android:maxLength="50"
-            android:padding="8dp"
+            android:padding="10dp"
+            android:text="https://samplelink.oia.bio/ashd..."
             android:textColor="@color/blue"
             android:textSize="12sp"
-            android:text="https://samplelink.oia.bio/ashd..."
             app:drawableEndCompat="@drawable/link_copy_img" />
     </LinearLayout>
 

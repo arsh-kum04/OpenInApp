@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/bottomAppBar"
         app:fabCradleMargin="12dp"
+        android:background="@color/white"
         app:fabCradleVerticalOffset="10dp"
         app:fabCradleRoundedCornerRadius="20dp"
         android:layout_gravity="bottom"
@@ -34,6 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/bottom_nav"
+            android:background="@color/white"
             app:menu="@menu/nav_menu"
             app:labelVisibilityMode="labeled"
             android:layout_gravity="center"
@@ -48,6 +50,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/add_img"
         app:layout_anchor="@+id/nav_host_fragment"
-        app:layout_anchorGravity="bottom|center" />
+        app:layout_anchorGravity="bottom|center"
+        app:backgroundTint="@color/blue"
+        app:tint="@color/white"/>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
